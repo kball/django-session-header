@@ -8,7 +8,7 @@ setup(
     author_email='ryan@ryanhiebert.com',
     url='https://github.com/ryanhiebert/django-session-header',
     package_dir={'': 'src'},
-    packages=find_packages('src'),
+    packages=['session_header'],
     classifiers=[
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
